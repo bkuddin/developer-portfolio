@@ -7,3 +7,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.orange {
+  color: orange;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
