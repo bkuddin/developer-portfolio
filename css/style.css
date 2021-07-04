@@ -25,11 +25,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-header {
-  display: flex;
-}
-
-section {
+.flexible-container {
   display: flex;
 }
 
@@ -71,4 +67,62 @@ section {
   background-image: url(/images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experience-area {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 150px;
+}
+
+.experience-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 3%;
+  padding-bottom: 8%;
+  box-shadow: 5px 7px 40px grey;
+}
+
+.experience-item h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.experience-item h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.experience-item p {
+  text-align: justify;
+}
+
+#baby-web {
+  border-left: 8px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+#full-stack {
+  border-left: 8px solid;
+  border-image: linear-gradient(180deg, rgb(248, 125, 10), rgb(235, 182, 69));
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 10px;
 }
