@@ -66,3 +66,9 @@ section {
   display: inline-block;
   margin-top: 15px;
 }
+
+.dream-big {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
